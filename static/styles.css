@@ -1,0 +1,27 @@
+table {
+    border: 2px solid brown;
+    border-collapse: collapse;
+}
+
+td, th {
+    border-bottom: 2px solid brown;
+    border-right: 2px solid brown;
+}
+
+html, body {
+    background: linear-gradient(to right, #F57C00, #FFFFFF);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: brown;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+}
